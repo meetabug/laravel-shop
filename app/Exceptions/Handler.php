@@ -12,10 +12,10 @@ class Handler extends ExceptionHandler
      *
      * @var array
      */
-    protected $dontReport = [
-        //
-    ];
 
+    protected $dontReport = [
+        InvalidRequestException::class,
+    ];
     /**
      * A list of the inputs that are never flashed for validation exceptions.
      *
