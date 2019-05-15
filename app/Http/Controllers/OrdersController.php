@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\OrderRequest;
 use App\Models\Order;
 use App\Models\UserAddress;
+use App\Services\OrderService;
 use Illuminate\Http\Request;
 
 class OrdersController extends Controller
